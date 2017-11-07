@@ -3,7 +3,7 @@ public class Datumspalindrom {
 	
 	private static void countDays(){
 		int zaehler = 0;
-		for(int i = 2000; i <= 2099; i++){
+		for(int i = 2000; i <= 2099; i++){ 
 			for(int j = 1; j <= 12; j++){
 				for(int k = 0; k <= 30; k++){
 					int date = i+j+k;
