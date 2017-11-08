@@ -9,7 +9,7 @@ public class Datumspalindrom {
 					int date = i+j+k;
 					String s = Integer.toString(date);
 					if(checkDate(s) == true){
-						zaehler++;
+						zaehler++; 
 					}
 					
 				}
